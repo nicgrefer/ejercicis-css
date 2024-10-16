@@ -1,8 +1,24 @@
-        p {
-            background-color: antiquewhite;
-            background: rgb(138, 192, 138);
-            color:rgb(23, 26, 202)
-        }
-        body{
-            background-color: darkturquoise;
-        }
+p {
+    background-color: antiquewhite;
+    color: brown;
+}
+body {
+    background-color: lightsalmon;
+}
+
+#resaltar {
+    /* colores */
+    background-color: yellow;
+    color: red;
+}
+
+.tipo2 {
+    font-size: 30px;
+    font-weight: lighter;
+    color:blue;
+}
+.tipo1 {
+    font-size: 120px;
+    font-weight: bold;
+    color:aquamarine;
+}
