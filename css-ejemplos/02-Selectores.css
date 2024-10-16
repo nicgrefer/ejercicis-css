@@ -1,0 +1,14 @@
+p span /*Lo seleccionado*/
+{
+    color: red;
+}
+
+p>span /*se supone que coje lo del alrrededor*/
+{
+    background-color: aqua;
+}
+
+p+p /*en este caso hace referencia a los parrafos acllacentea a otro parrafo*/
+{
+    font-size: large
+}
