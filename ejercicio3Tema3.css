@@ -1,0 +1,32 @@
+.texto
+{
+    color: red;
+    text-decoration: underline;
+}
+.dato
+{
+    color: blue;
+}
+.curriculum
+{
+    background-color: rgb(135, 206, 235);
+    
+}
+.Encabezados
+{
+    background-color: rgb(30, 144, 255);
+    color: white;
+}
+.SubEncabezado
+{
+    background-color:rgb(76, 192, 245) ;
+    color: white;
+}
+.titulo
+{
+    text-align: center
+}
+.text1
+{
+    color: white;
+}
