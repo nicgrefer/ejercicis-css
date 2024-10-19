@@ -1,0 +1,22 @@
+body>p
+{
+    background-color: black;
+    color:yellow;
+    text-align:justify;
+    margin-left: 1,27cm;
+    margin-right: 1,27cm;
+}
+body
+{
+    background-color: black;
+}
+h1
+{
+    background-color: aqua;
+    color: orange;
+    size: 16px;
+}
+h2
+{
+    color: white;
+}
