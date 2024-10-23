@@ -1,10 +1,15 @@
+*
+{
+font-family: Arial;
+}
+
+
 body>p
 {
     background-color: black;
     color:yellow;
     text-align:justify;
-    margin-left: 1,27cm;
-    margin-right: 1,27cm;
+    margin:5%
 }
 body
 {
@@ -22,6 +27,7 @@ h2
 }
 .enlace
 {
+    font-size: 12px;
     color: blue;
     text-align: right;
     text-decoration:underline;
