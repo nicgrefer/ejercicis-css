@@ -2,11 +2,74 @@
 td[width]
 {
     background-color: #FF0;
+    /*lo que tenga la característica width se aplica lo que pongas*/
 }
 
 td[width="50%"]
 {
     font-size: 50px;
     background-color: blanchedalmond;
-    
+    /*lo que tenga la característica width con 50% se aplica lo que pongas*/
 }
+
+td:not([width="50%"])
+{
+    font-style: italic;
+    /*Lo que no sea ([....]) se pone de .... */
+}
+
+a:visited
+{
+    color: red
+    /*Si la pagina a sido visitada antes se pone en color rojo*/
+}
+
+a:hover
+{
+    color: green;
+    /*Al poner el cursor encima cambia de color*/
+}
+
+a:active
+{
+    color: chocolate;
+    /*Cuando pulsas cambia de color*/
+}
+
+input:focus
+{
+    color: red;
+    /*Cuando pulsas al tabulador o al escribir en un formulario el texto cambia de color */
+    /*esto ayuda a saber donde se está escribiendo (por eso focus) */
+}
+
+p:first-of-type
+{
+color: blue;
+/*El primero del texto*/
+}
+
+p:last-child
+{
+    color: rgb(255, 0, 255);
+    /*El ultimo texto*/
+}
+
+p:nth-child(2n+1)
+{
+    background-color: blanchedalmond;
+    /*para los parrrafos que sen pares*/
+}
+
+p:nth-child(2n)
+{
+    background-color: rgba(49, 185, 185, 0.459);
+    /*para los parrrafos que sen inpares*/
+}
+
+span:last-child
+{
+    font-size: 40px;
+    /*Se aplica al ultimo span de cada p */
+}
+
