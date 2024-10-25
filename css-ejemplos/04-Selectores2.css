@@ -1,0 +1,12 @@
+
+td[width]
+{
+    background-color: #FF0;
+}
+
+td[width="50%"]
+{
+    font-size: 50px;
+    background-color: blanchedalmond;
+    
+}
