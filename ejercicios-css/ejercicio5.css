@@ -1,0 +1,10 @@
+a:hover
+{
+    color: blue;
+    /*Al poner el cursor encima cambia de color*/
+}
+a
+{
+    color: red
+    /*Si la pagina a sido visitada antes se pone en color rojo*/
+}

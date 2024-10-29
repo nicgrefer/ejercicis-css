@@ -1,0 +1,33 @@
+ol
+{
+    font-weight: bold; /*Pone en negrita*/
+}
+#textoverde
+{
+background-color: rgb(46, 204, 46);
+}
+.grande
+{
+    font-size: x-large;
+}
+h1
+{
+background-color: aqua;
+}
+h2
+{
+    background-color: cadetblue;
+}
+h3
+{
+    background-color: darkgray;
+}
+.blue
+{
+    color: yellow;
+    background-color: beige;
+}
+a:visited
+{
+    color: darkolivegreen;
+}
