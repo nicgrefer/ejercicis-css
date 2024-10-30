@@ -1,0 +1,43 @@
+span{
+
+    color:blue;
+}
+p{
+
+    background-color: #f5f5db;
+}
+body{
+
+    background-color: #000000ea;
+}
+/*Textos*/
+p:first-of-type{/*El primero que sea "p*/
+
+    letter-spacing: 5px; /*la distancia entre letras*/
+}
+p:hover{
+/*Cuando te pones encima del parrafo aumenta la separación entre palabreas*/
+    word-spacing: 20px;
+}
+#parrafo2{
+/*Text aline para "colocar mejor el texto"*/
+    text-align: justify;
+}
+.miclase{
+/*pata subrallar*//*Si se pone dos balores se ponen separados por un espacio aplicandose así los 2*/
+   text-decoration: underline line-through; 
+   text-transform: capitalize;/*Pone la rimera letra en mallusculas*/
+}
+p{
+/*seria como la sangria en un word*/
+    text-indent:calc(10% + 10px) ;
+    text-shadow: 2px 2px 5px chocolate;
+}
+p:last-of-type{
+/*Se aplica a la ultimo "p" que el tamaño de la linea barie*/
+    line-height: 30px;
+    font-size: large;/*hacer mas grande el texto*/
+    font-weight: bold;/*poner en negrita*/
+    font-style: italic;/*poner en cursiba*/
+    font-family: "Kablammo", system-ui; ;/*Cambiar tipografia*/
+}
