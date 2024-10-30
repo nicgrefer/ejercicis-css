@@ -40,4 +40,9 @@ p:last-of-type{
     font-weight: bold;/*poner en negrita*/
     font-style: italic;/*poner en cursiba*/
     font-family: "Kablammo", system-ui; ;/*Cambiar tipografia*/
+    font-variant: small-caps;
+}
+div>p{
+
+    background-color: aquamarine;
 }

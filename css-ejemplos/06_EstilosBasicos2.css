@@ -1,0 +1,25 @@
+table{
+
+    background-image:url("https://picsum.photos/id/1/200/300");/*imajenes aleatorias por parte de la url 
+    "https://picsum.photos/images"*/
+    background-repeat: no-repeat;/*que no se repita la imajen*/
+    background-position: center;/*poner en distinas posiciones*//*buton abajo, top arriba, left-rait*/
+    background-size: cover;/*Extender imajen*/
+    background-size: 100%;/*regular tamaño*/
+}
+#ultimoParrafo{
+
+    background-color:blue;
+    height: 100px;/*Altura del componente*/
+    line-height: 100px;/*Altura del texto*/
+    vertical-align: middle;
+    border-style:solid;/*crear un borde primero se tiene que crear un sólido y luego le vas denado balores como el tamaño color... */
+    border-width: 3px;
+    border-color: brown;
+    /*Tambien se podria poner todo junto como border:10px black double*/
+}
+#ultimisimo{
+    background-color: coral;
+
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); /*https://bennettfeely.com/clippy/ pagina donde se puede sacar formas geometricas*/
+}
