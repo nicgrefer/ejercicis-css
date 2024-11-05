@@ -1,0 +1,23 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #eaeaea;
+    font-size: 125%;
+    padding: 10px;
+}
+.botones{
+    text-align: right;
+}
+.rojo{
+    color: red;
+    text-decoration: underline;
+
+}
