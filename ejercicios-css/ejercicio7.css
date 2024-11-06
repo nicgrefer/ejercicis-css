@@ -6,17 +6,24 @@ body {
 }
 
 
-.titulo {
+h1{
     text-align: center;
     text-transform: uppercase;
     background-color: #eaeaea;
     font-size: 125%;
     padding: 10px;
 }
+
+legend{
+    background-color:#EEEEEE;
+    margin: 10px 20px;
+
+}
+
 .botones{
     text-align: right;
 }
-.rojo{
+#rojo{
     color: red;
     text-decoration: underline;
 
