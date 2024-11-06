@@ -1,0 +1,67 @@
+#parrafo1{
+
+    border: dotted 3px red;
+    background-color: tomato;
+    padding: 20px;
+    text-align: justify;
+    padding-right: 100px;
+  /*-----------------------------------*/
+    margin: 25px; /*margenes*//*Margen en jeneral (todos los lados)*/
+    margin-bottom: 60px/*Margen hacia abajo*/
+
+}
+
+p:last-of-type{
+
+    border: solid 3px black;
+}
+
+#nombre{
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#imagen1{/*Primera opcion de centrar*/
+/*Aqui lo que hacemos es que dividimos la pantalla en cuatro partes, 25/100 por lo tanto se necesita un margen de 25% y el tamaño de la imagen a un tamaño del 50% para que de de resultado 100*/
+    padding-left: 25%;
+    width: 50%;
+}
+
+#imagen2{/*Segunda opcion de centrar*/
+
+    display: block;/*puedes cambiar el tipo de la etiqueta. img es en linea pero ahora es en bloque*/
+    margin: auto;
+}
+
+#imagen3{
+
+    display: block;
+    margin-left:calc(50%-100px );
+}
+
+li{
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+ul{
+    display: inline;
+    width: 100px;
+    margin: 2px;
+    padding: 2px;
+    border: solid 3px black;
+    text-align: center;
+}

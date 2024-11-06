@@ -1,5 +1,6 @@
 
 body {
+
     font-family: sans-serif;
     background-color: #fafafa;
     padding: 20px;
@@ -7,6 +8,7 @@ body {
 
 
 h1{
+    
     text-align: center;
     text-transform: uppercase;
     background-color: #eaeaea;
@@ -15,16 +17,18 @@ h1{
 }
 
 legend{
+
     background-color:#EEEEEE;
     margin: 10px 20px;
 
 }
 
 .botones{
+
     text-align: right;
 }
 #rojo{
+
     color: red;
     text-decoration: underline;
-
 }
