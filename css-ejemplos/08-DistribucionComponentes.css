@@ -1,0 +1,16 @@
+#imagen1{
+
+    float: right;
+}
+
+#p3{
+
+    clear: both;/*limpias la caracteristicas del float y al poner bouth haces que se sea tanto para la derecha como izquierda... */
+}
+
+#imagen2{
+
+    position: absolute;
+    top: auto;
+    left: calc(50% - 50px);
+}
