@@ -1,0 +1,12 @@
+#foto{
+
+    margin: 0;
+    position: relative;
+}
+
+#escudo{
+
+    position: absolute;
+    top: 350px;
+    left: 350px;   
+}
