@@ -8,5 +8,16 @@
 
     position: absolute;
     top: 350px;
-    left: 350px;   
+    left: 350px;  
+    width: 100px;
+}
+
+p{
+
+    position: absolute;
+    top: 390px;
+    left: 390px;  
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 150%;
 }
