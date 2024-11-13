@@ -1,0 +1,49 @@
+p{
+
+    position: absolute;
+    border: double 3px black;
+    height: 70px;
+    color: red;
+}
+
+#primerFotograma{
+
+    
+}
+
+#ultioFotograma{
+
+    margin-left: 375px ;
+}
+
+tr{
+
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: 143px;
+}
+
+td{
+
+    display: inline-table;
+    border: dashed 4px black;
+    width: 200px;
+    height: 200px;
+    color: darkorchid;
+    font-size: large;
+}
+
+#par{
+
+    background-color: white;
+}
+
+#impar{
+
+    background-color: rgb(128, 128, 128) ;
+}
+
+.ultimo:hover{
+    background-color: brown;
+}
