@@ -1,49 +1,52 @@
-p{
-
-    position: absolute;
-    border: double 3px black;
-    height: 70px;
+.div1{
     color: red;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+    border: black solid 4px;
 }
 
-#primerFotograma{
+#ultimo{
+    left: 5px;
+}
 
+#primero{
+    right: 5px;
+}
+
+.div1:hover{
+    background-color: black;
+    border: gray solid 4px;
+}
+
+.div2{
+    border: dashed black 10px;
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    color: red;
+    text-align: center;
+    font-size: 60px;
+    color: magenta;
     
 }
 
-#ultioFotograma{
-
-    margin-left: 375px ;
-}
-
-tr{
-
-    position: relative;
+.div3{
+    border-left: dashed black 10px;
+    border-right: dashed black 10px;
+    border-bottom: dashed black 10px;
+    width: 40%;
+    height: 600px;
+    margin: auto;
     text-align: center;
-    display: block;
-    margin-left: 143px;
+    font-size: 60px;
+    color: magenta;
+    background-color: rgb(194, 190, 190);
 }
 
-td{
-
-    display: inline-table;
-    border: dashed 4px black;
-    width: 200px;
-    height: 200px;
-    color: darkorchid;
-    font-size: large;
-}
-
-#par{
-
-    background-color: white;
-}
-
-#impar{
-
-    background-color: rgb(128, 128, 128) ;
-}
-
-.ultimo:hover{
-    background-color: brown;
+.enlace{
+    color: red;
 }
