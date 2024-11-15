@@ -1,0 +1,36 @@
+li{
+    display: inline;
+    float: right;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px; /*La misma altura del texto la igualo a la altura del componenete y asi ya queda centrado verticalmente*/
+}
+
+a{
+    display: block;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+ul{
+    background-color: orange;
+    height: 150px;
+    margin: 0;
+    
+}
+
+body{
+    margin:0; /*Aunque luego el texto que pongamos extra quedara en el borde de la pagina*/
+}
+
+p{
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
