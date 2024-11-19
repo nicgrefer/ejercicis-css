@@ -38,7 +38,7 @@ p:last-of-type{
 #imagen3{
 
     display: block;
-    margin-left:calc(50%-100px );
+    margin-left:calc(50% - 100px );
 }
 
 li{
